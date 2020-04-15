@@ -5,6 +5,9 @@
     font-weight: 400;
     box-sizing: border-box;
 }
+.conta{
+    
+}
 .store-1{
         width: 89%;
         height: 188px;
@@ -12,10 +15,12 @@
         padding: 20px;
         display: flex;
         text-align: center;
+        
 }
 #head{
     width: 80%;
     height: 100px;
+    background-image: url();
     display: flex;
    justify-content: space-around;   
 }
@@ -30,4 +35,21 @@
     text-decoration: none;
     margin: 10px;
     color: grey;
+}
+.container{
+    width: 89%;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin: 28px;
+    display: flex;
+    align-content: center;;
+    flex-direction: row;
+    
+}
+.one{
+    width: 400px;
+    
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 2px;
 }
