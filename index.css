@@ -6,8 +6,7 @@
     box-sizing: border-box;
 }
 .conta{
-    
-    margin: 20px;
+     margin: 20px;
     background-image: url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1393&q=80');
     background-size: cover;
     background-attachment: fixed;
@@ -46,12 +45,16 @@ text-align: center;
     margin: 28px;
     display: flex;
     align-content: center;;
-    flex-direction: row;   
+    flex-direction: column;   
 }
 .one{
-    width: 400px;
+    width: 85%;
+    height: auto;
     margin: 10px;
-    padding: 10px;
+    
     color: #ffffff;
   letter-spacing: 2px;
+}
+#school{
+    color: salmon;
 }
